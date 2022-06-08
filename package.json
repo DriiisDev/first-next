@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "css": "npx postcss src/static/css/style.css -o public/static/css/style.css --watch"
+    "css-watch": "npx postcss src/css/style.css -o styles/globals.css --watch"
   },
   "dependencies": {
     "autoprefixer": "^10.4.7",
